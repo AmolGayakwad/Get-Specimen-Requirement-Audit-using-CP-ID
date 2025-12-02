@@ -9,8 +9,8 @@ import re
 import ast
 
 BASE_URL = "https://demo.openspecimen.org"
-USERNAME = "amol@krishagni.com"
-PASSWORD = "Login@12345"
+USERNAME = "<Enter_Username>"
+PASSWORD = "Enter_Password"
 
 def get_token():
     url = f"{BASE_URL}/rest/ng/sessions"
