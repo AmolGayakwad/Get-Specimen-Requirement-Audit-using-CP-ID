@@ -32,7 +32,6 @@ Install dependencies using:
          When prompted, enter:
 
           - Collection Protocol ID (CPID)
-          
           - Output filename: CP_Id merged_specimen_req_audit.csv
 
 The script will generate a cleaned CSV with PV values instead of numerical IDs.
