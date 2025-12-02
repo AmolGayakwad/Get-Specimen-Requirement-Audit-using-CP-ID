@@ -23,7 +23,6 @@ This script performs the following tasks:
 
 Install dependencies using:
 
-```bash
 pip install requests pandas
 How to Run
 Download or save the script (e.g., sr_audit.py).
@@ -32,35 +31,33 @@ Open a terminal and navigate to the script location.
 
 Run the script with the command:
 
-bash
-Copy code
-python3 sr_audit.py
-When prompted, enter:
+- python3 sr_audit.py
+- When prompted, enter:
 
-Collection Protocol ID (CPID)
+- Collection Protocol ID (CPID)
 
-Output filename
+- Output filename: CP_Id merged_specimen_req_audit.csv
 
 The script will generate a cleaned CSV with PV values instead of numerical IDs.
 
-What the Script Does
-Logs in and retrieves an API session token
+# What the Script Does
+- Logs in and retrieves an API session token
 
-Downloads and extracts the SR Audit CSV
+- Downloads and extracts the SR Audit CSV
 
-Fetches PV values using the permissible value API
+- Fetches PV values using the permissible value API
 
-Replaces PV IDs with their text values
+- Replaces PV IDs with their text values
 
-Saves the final CSV output
+- Saves the final CSV output
 
-What I Learned
-Using the OpenSpecimen REST API for authentication and data export
+# What I Learned
+- Using the OpenSpecimen REST API for authentication and data export
 
-Fetching and mapping PV values programmatically
+- Fetching and mapping PV values programmatically
 
-Handling ZIP files and CSV extraction in Python
+- Handling ZIP files and CSV extraction in Python
 
-Cleaning and transforming data for readability
+- Cleaning and transforming data for readability
 
-Writing modular, reusable Python functions
+- Writing modular, reusable Python functions
