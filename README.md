@@ -1,77 +1,66 @@
-Specimen Requirement Audit using CPID
+# Specimen Requirement Audit using CPID
 
-This script downloads a Specimen requirement audit using CPID from OpenSpecimen, resolves Permissible Value (PV) IDs (such as specimen type and anatomic site), and produces a clean CSV output.
+This script downloads a Specimen Requirement (SR) audit using a Collection Protocol ID (CPID) from OpenSpecimen. It resolves Permissible Value (PV) IDs (such as specimen type and anatomic site) and produces a clean CSV output.
 
-Introduction
+## Introduction
 
-The script performs the following tasks:
+This script performs the following tasks:
 
-Authenticates with OpenSpecimen using the REST API.
+- **Authenticates** with OpenSpecimen using the REST API  
+- **Fetches PVs** for:
+  - specimen_type  
+  - anatomic_site  
+- **Downloads SR audit** using the provided CPID  
+- **Extracts the CSV** from the downloaded ZIP file  
+- **Replaces PV IDs** with human-readable PV values  
+- **Saves the final processed CSV**  
 
-Fetches PVs for:
+## Requirements
 
-specimen_type
+- Python 3.x  
+- requests module  
+- pandas module  
 
-anatomic_site
+Install dependencies using:
 
-Downloads SR's Audit using CPID.
-
-Extracts the CSV from the ZIP.
-
-Replaces PV IDs with human-readable PV values.
-
-Saves the final processed CSV.
-
-Requirements
-
-Python 3.x
-
-requests
-
-pandas
-
-Install dependencies:
-
+```bash
 pip install requests pandas
-
 How to Run
-
 Download or save the script (e.g., sr_audit.py).
 
 Open a terminal and navigate to the script location.
 
-Run:
+Run the script with the command:
 
+bash
+Copy code
 python3 sr_audit.py
+When prompted, enter:
 
-Enter:
-
-Enter CP ID
+Collection Protocol ID (CPID)
 
 Output filename
 
-A cleaned CSV will be generated with PV values instead of numerical IDs.
+The script will generate a cleaned CSV with PV values instead of numerical IDs.
 
 What the Script Does
+Logs in and retrieves an API session token
 
-Logs in and retrieves an API session token.
+Downloads and extracts the SR Audit CSV
 
-Downloads and extracts the SR Audit CSV.
+Fetches PV values using the permissible value API
 
-Fetches PV values using the permissible value API.
+Replaces PV IDs with their text values
 
-Replaces PV IDs with their text values.
-
-Saves the output in CSV
+Saves the final CSV output
 
 What I Learned
+Using the OpenSpecimen REST API for authentication and data export
 
-Using the OpenSpecimen REST API for authentication and data export.
+Fetching and mapping PV values programmatically
 
-Fetching and mapping PV values programmatically.
+Handling ZIP files and CSV extraction in Python
 
-Handling ZIP files and CSV extraction in Python.
+Cleaning and transforming data for readability
 
-Cleaning and transforming data for readability.
-
-Writing modular, reusable Python functions.
+Writing modular, reusable Python functions
