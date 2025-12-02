@@ -1,0 +1,14 @@
+Modified Date,Modified By,Operation,Req ID,Event Label,activityStatus,anatomicSite,code,collectionContainer,collectionProcedure,initialQuantity,laterality,lineage,name,pathologyStatus,specimenClass,specimenType,storageType
+11/07/2025 06:11,Amol Gayakwad,Edit,62473,Collection,,"Abdomen, NOS",WB_1,ACD Vacutainer,Biopsy Core Punch,10.000000,Left,,WB,Benign,,,
+11/07/2025 05:35,Amol Gayakwad,Add,62473,Collection,Active,Not Specified,,Not Specified,Not Specified,,Not Specified,New,,Not Specified,Fluid,Whole Blood,Virtual
+11/07/2025 06:12,Amol Gayakwad,Edit,62472,Baseline,,"Accessory sinus, NOS",A1,,,10.000000,,,ANT,,,,
+11/07/2025 05:35,Amol Gayakwad,Add,62472,Baseline,Active,Not Specified,,Not Specified,Not Specified,,Not Specified,New,,Not Specified,Cell,Antibodies,Virtual
+11/07/2025 06:12,Amol Gayakwad,Edit,62474,Collection,,Abdominal esophagus,PL,,,,Left,,,Benign,,,
+11/07/2025 06:11,Amol Gayakwad,Edit,62474,Collection,,,,ACD Vacutainer,Biopsy Core Punch,,,,,,,,
+11/07/2025 05:47,Amol Gayakwad,Add,62474,Collection,Active,Not Specified,,Not Specified,Not Specified,,Not Specified,Derived,,Not Specified,Fluid,Plasma,Virtual
+11/07/2025 06:12,Amol Gayakwad,Edit,62476,Collection,,Abdominal esophagus,AL2,,,,Left,,,Benign,,,
+11/07/2025 06:11,Amol Gayakwad,Edit,62476,Collection,,,,ACD Vacutainer,Biopsy Core Punch,,,,,,,,
+11/07/2025 05:48,Amol Gayakwad,Add,62476,Collection,Active,Not Specified,,Not Specified,Not Specified,2.000000,Not Specified,Aliquot,,Not Specified,Fluid,Plasma,Manual
+11/07/2025 06:12,Amol Gayakwad,Edit,62475,Collection,,Abdominal esophagus,AL1,,,,Left,,,Benign,,,
+11/07/2025 06:11,Amol Gayakwad,Edit,62475,Collection,,,,ACD Vacutainer,Biopsy Core Punch,,,,,,,,
+11/07/2025 05:48,Amol Gayakwad,Add,62475,Collection,Active,Not Specified,,Not Specified,Not Specified,2.000000,Not Specified,Aliquot,,Not Specified,Fluid,Plasma,Manual
