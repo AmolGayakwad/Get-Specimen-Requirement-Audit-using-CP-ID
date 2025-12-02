@@ -27,18 +27,9 @@ Install dependencies using:
 ## How to Run
 - Download or save the script (e.g., sr_audit.py).
 - Open a terminal and navigate to the script location.
-- Run the script with the command: 
-   python3 cp_audit.py
-   
-      When prompted, enter:
-      
-      - Collection Protocol ID      
-      - Start date (format: YYYY-MM-DD)      
-      - End date (format: YYYY-MM-DD)
-
-The script will save the transformed audit CSV as:
-CP_Audit-<cp_id>.csv
-
+- Run the script with the command:
+     python3 cp_audit.py
+- Enter CP ID as input
 
 The script will generate a cleaned CSV with PV values instead of numerical IDs.
 
