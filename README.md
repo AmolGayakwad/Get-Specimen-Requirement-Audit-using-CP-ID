@@ -29,6 +29,7 @@ Install dependencies using:
 - Open a terminal and navigate to the script location.
 - Run the script with the command:
      python3 sr_audit.py
+  
          When prompted, enter:
 
           - Collection Protocol ID (CPID)
