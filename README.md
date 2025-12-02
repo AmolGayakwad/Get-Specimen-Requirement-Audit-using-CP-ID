@@ -22,21 +22,18 @@ This script performs the following tasks:
 - pandas module  
 
 Install dependencies using:
+- pip install requests pandas
+  
+## How to Run
+- Download or save the script (e.g., sr_audit.py).
+- Open a terminal and navigate to the script location.
+- Run the script with the command:
+     python3 sr_audit.py
+         When prompted, enter:
 
-pip install requests pandas
-How to Run
-Download or save the script (e.g., sr_audit.py).
-
-Open a terminal and navigate to the script location.
-
-Run the script with the command:
-
-- python3 sr_audit.py
-- When prompted, enter:
-
-- Collection Protocol ID (CPID)
-
-- Output filename: CP_Id merged_specimen_req_audit.csv
+          - Collection Protocol ID (CPID)
+          
+          - Output filename: CP_Id merged_specimen_req_audit.csv
 
 The script will generate a cleaned CSV with PV values instead of numerical IDs.
 
